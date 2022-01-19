@@ -29,7 +29,10 @@ import {
   Tree,
   Select,
   Option,
-  Cascader
+  Cascader,
+  Carousel,
+  CarouselItem,
+  Image
 } from 'element-ui'
 
 Vue.use(Button)
@@ -61,5 +64,8 @@ Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Cascader)
+Vue.use(Carousel)
+Vue.use(CarouselItem)
+Vue.use(Image)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm

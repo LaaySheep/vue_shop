@@ -203,10 +203,12 @@ export default {
         if (!valid) return
         // 发送请求，根据status的状态来判断是否添加成功
         const { data: res } = await this.$http.post('roles', this.addRolesForm)
-        if (res.meta.status !== 201) {
+        if (res.meta.status !== 400) {
           this.$message.error('添加用户失败')
+        } else {
+          this.$message.success('添加用户成功')
         }
-        this.$message.success('添加用户成功')
+        console.log(res.meta.status)
         // 隐藏对话框
         this.addRolesDialogVisible = false
         // 重新获取用户列表

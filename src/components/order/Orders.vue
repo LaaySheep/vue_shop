@@ -101,7 +101,7 @@ export default {
       // 修改地址的对话框
       addressDialogVisible: false,
       addressForm: {
-        address1: [],
+        address1: ['浙江', '江苏', '江西', '上海', '北京', '广东'],
         address2: ''
       },
       addressFormRules: {

@@ -30,8 +30,8 @@ export default {
     return {
       // 登录表单数据绑定 对象
       loginForm: {
-        username: 'zce',
-        password: '$2a$08$lV0Gr4AKx7xH7cCU4KCGCOikNzGPaWIpw9W7A9BONIxoJ2.hGC9qi'
+        username: 'admin',
+        password: '123456'
       },
       // 表单验证规则对象
       loginFormRules: {
