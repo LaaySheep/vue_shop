@@ -3,7 +3,7 @@
     <div class="login_container">
         <div class="login_box">
             <div class="admin_box">
-                <img src="../assets/logo.jpeg" alt="用户">
+                <img src="./../assets/logo.jpeg" alt="用户">
                 <!-- 登录表单区域 用户名-->
                 <el-form ref="loginFormRef" :model="loginForm" :rules="loginFormRules" class="login_form">
                     <el-form-item prop="username">
