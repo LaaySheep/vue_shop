@@ -32,7 +32,8 @@ import {
   Cascader,
   Carousel,
   CarouselItem,
-  Image
+  Image,
+  Calendar
 } from 'element-ui'
 
 Vue.use(Button)
@@ -67,5 +68,6 @@ Vue.use(Cascader)
 Vue.use(Carousel)
 Vue.use(CarouselItem)
 Vue.use(Image)
+Vue.use(Calendar)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
